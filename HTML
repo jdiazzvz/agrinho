@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energia Hidrelétrica: Força Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>EcoHydro</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#como-funciona">Como Funciona</a></li>
+                    <li><a href="#vantagens">Vantagens</a></li>
+                    <li><a href="#quiz">Desafio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>A Força da Água Gerando o Futuro</h2>
+            <p>Descubra como o movimento dos rios se transforma em energia limpa e renovável para milhões de lares.</p>
+            <a href="#como-funciona" class="btn">Saiba Mais</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="container section">
+        <h2>O que é Energia Hidrelétrica?</h2>
+        <p>A energia hidrelétrica é a eletricidade gerada através do aproveitamento do fluxo e da força da água em movimento. É uma das fontes de energia renovável mais antigas e utilizadas no mundo, desempenhando um papel crucial na matriz energética do Brasil.</p>
+    </section>
+
+    <section id="como-funciona" class="bg-light section">
+        <div class="container">
+            <h2>Como Funciona uma Usina?</h2>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <h3>1. O Reservatório</h3>
+                    <p>A água do rio é represada, acumulando grande quantidade de energia potencial.</p>
+                </div>
+                <div class="step-card">
+                    <h3>2. A Queda d'Água</h3>
+                    <p>Ao abrir as comportas, a água desce sob alta pressão através de dutos em direção às turbinas.</p>
+                </div>
+                <div class="step-card">
+                    <h3>3. As Turbinas</h3>
+                    <p>A força da água gira as pás da turbina, transformando energia hidráulica em energia mecânica.</p>
+                </div>
+                <div class="step-card">
+                    <h3>4. O Gerador</h3>
+                    <p>O gerador acoplado à turbina converte o movimento mecânico em energia elétrica, pronta para distribuição.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="vantagens" class="container section">
+        <h2>Vantagens e Desafios</h2>
+        <div class="pros-cons">
+            <div class="list-box pros">
+                <h3>Pontos Positivos</h3>
+                <ul>
+                    <li>Fonte renovável e limpa (baixa emissão de CO₂).</li>
+                    <li>Alta eficiência energética.</li>
+                    <li>Reservatórios ajudam no controle de enchentes.</li>
+                </ul>
+            </div>
+            <div class="list-box cons">
+                <h3>Pontos Negativos</h3>
+                <ul>
+                    <li>Grande impacto socioambiental no alagamento de áreas.</li>
+                    <li>Dependência direta do regime de chuvas.</li>
+                    <li>Deslocamento de comunidades locais.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="quiz" class="bg-dark section text-light">
+        <div class="container text-center">
+            <h2>Teste seus Conhecimentos!</h2>
+            <p id="quiz-question">A energia hidrelétrica é considerada uma fonte de energia renovável?</p>
+            <div class="quiz-buttons">
+                <button class="btn btn-success" onclick="checkAnswer(true)">Sim</button>
+                <button class="btn btn-danger" onclick="checkAnswer(false)">Não</button>
+            </div>
+            <p id="quiz-result"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 EcoHydro. Criado para fins educativos.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
